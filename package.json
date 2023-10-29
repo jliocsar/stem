@@ -1,0 +1,24 @@
+{
+  "name": "stem",
+  "type": "module",
+  "scripts": {
+    "open-dist": "open-cli dist/index.html",
+    "build": "bun run --bun build.tsx",
+    "serve": "bun run build && bun run --bun --watch server.ts",
+    "open": "bun run build && bun open-dist"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "open-cli": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@kitajs/html": "latest",
+    "@kitajs/ts-html-plugin": "latest",
+    "detect-gpu": "latest",
+    "node-disk-info": "latest",
+    "pretty-ms": "latest"
+  }
+}
