@@ -1,6 +1,12 @@
+<div align=center>
+
 # Stem
 
-System information visualizer.
+<img alt=preview width=960 src=.github/preview.png>
+
+_System information visualizer_
+
+</div>
 
 It uses [@kitajs/html](https://github.com/kitajs/html) together with [`Bun`](https://bun.sh) to build & open a simple `index.html` containing all the information you need to know about your system (CPU, Memory, GPU etc).
 

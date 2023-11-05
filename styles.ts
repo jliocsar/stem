@@ -159,6 +159,10 @@ ul li {
 }
 
 @media (min-width: 1280px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .disk-information ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
